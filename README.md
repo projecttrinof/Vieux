@@ -15,7 +15,7 @@ The ability to read this README
 # Device support
 
 ## iOS 10.3.3
-iPhone 5s, iPad Air, iPad Mini 2 (Not iPad4,6)
+iPhone 5s (chances of success are small), iPad Air, iPad Mini 2 (Not iPad4,6)
 
 ## iOS 8.4.1
 iPhone 5, iPhone 4s, iPad 2, iPad 3, iPad 4, iPad Mini 1, iPod 5 
@@ -48,7 +48,7 @@ Options:
 -----------------
 # Installing dependencies
 
-Needs Python3 (At least 3.5)
+Needs Python3 (At least 3.6)
 
 Also needs Python2 but that comes default with macOS
 
@@ -57,8 +57,8 @@ Run 'pip3 install -r requirements.txt' to install all dependencies
 -----------------
 # Instructions
 
-1. 'pip3 install -r requirements.txt' to install all dependencies
-2. 'cd' into the 'Vieux' folder that you either git cloned or downloaded
+1. 'cd' into the 'Vieux' folder that you either git cloned or downloaded
+2. 'pip3 install -r requirements.txt' to install all dependencies
 3. run './vieux -i "PATH/TO/.ipsw"' or, if the that command doesn't work, 'python3 vieux -i "PATH/TO/.ipsw"'
 4. Follow what the tool tells you to do
 5. Profit?
